@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="yYe-JY-0vD">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="IUI-yS-CK8">
+            <objects>
+                <viewController id="aiy-nV-ahh" customClass="MainViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0xV-5i-2Es"/>
+                        <viewControllerLayoutGuide type="bottom" id="j6R-gd-Q7z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="09I-gM-zNC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hTp-Xo-RLj">
+                                <rect key="frame" x="179" y="270" width="46" height="30"/>
+                                <state key="normal" title="开始"/>
+                                <connections>
+                                    <segue destination="k75-wV-fv2" kind="push" id="DkY-vi-Nfm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9VQ-TJ-ETj"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="head" destination="9VQ-TJ-ETj" id="s6k-RK-pLu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOr-ja-g9T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="257"/>
+        </scene>
+        <!--Show View Controller-->
+        <scene sceneID="1G5-9N-ol6">
+            <objects>
+                <viewController id="k75-wV-fv2" customClass="showViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bB6-29-iqf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xke-Xj-tnX"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zt0-dk-hSu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="oTi-eM-vFH">
+                                <rect key="frame" x="0.0" y="72" width="414" height="664"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hpm-aU-UgH">
+                        <nil key="title"/>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="c9z-KZ-K6h">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="q2b-60-b7W">
+                                <rect key="frame" x="302" y="7" width="92" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="添加"/>
+                                <connections>
+                                    <segue destination="yaL-Ww-RPc" kind="push" id="hla-rd-5oH"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="headShow" destination="Hpm-aU-UgH" id="Ua0-LT-5F5"/>
+                        <outlet property="showTable" destination="oTi-eM-vFH" id="XVv-iT-VjI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eDu-Uy-hW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-68" y="257"/>
+        </scene>
+        <!--Delete Note Controller-->
+        <scene sceneID="g4Q-kX-4Sg">
+            <objects>
+                <viewController storyboardIdentifier="delete" id="6Lm-mg-2gQ" customClass="deleteNoteController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="DRc-JA-Tv8"/>
+                        <viewControllerLayoutGuide type="bottom" id="8Um-GU-KpO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gwq-jE-2K2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notepad.png" translatesAutoresizingMaskIntoConstraints="NO" id="xUN-iB-MyC">
+                                <rect key="frame" x="-6" y="93" width="420" height="643"/>
+                                <color key="backgroundColor" red="0.94188779592514038" green="0.75349658727645874" blue="0.83451861143112183" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIT-01-Ypu">
+                                <rect key="frame" x="213" y="141" width="46" height="30"/>
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="backAndRef:" destination="6Lm-mg-2gQ" eventType="touchUpInside" id="XrT-ov-S6y"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DaO-JZ-iu5">
+                                <rect key="frame" x="42" y="192" width="266" height="389"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2T4-ad-mmM">
+                                <rect key="frame" x="42" y="141" width="163" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zKQ-hh-bRw">
+                                <rect key="frame" x="267" y="140" width="46" height="30"/>
+                                <state key="normal" title="删除"/>
+                                <connections>
+                                    <action selector="deleteNote:" destination="6Lm-mg-2gQ" eventType="touchUpInside" id="tsl-Mf-Tjd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="deletedContent" destination="DaO-JZ-iu5" id="CUB-IA-zho"/>
+                        <outlet property="deletedTitle" destination="2T4-ad-mmM" id="Yxm-RD-tUT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tU5-5K-Wru" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-34" y="1078"/>
+        </scene>
+        <!--Add Note Controller-->
+        <scene sceneID="l1X-iL-CAA">
+            <objects>
+                <viewController id="yaL-Ww-RPc" customClass="addNoteController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tuu-lw-VtQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="cQc-GL-bUd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RsG-UE-FaU">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="notepad.png" translatesAutoresizingMaskIntoConstraints="NO" id="yhI-eE-dhR">
+                                <rect key="frame" x="0.0" y="64" width="394" height="589"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="请输入你的记事内容" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4lh-1N-GkO">
+                                <rect key="frame" x="38" y="213" width="266" height="347"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入标题" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1Rn-PB-SRh">
+                                <rect key="frame" x="38" y="164" width="183" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SNk-89-WaD">
+                                <rect key="frame" x="252" y="163" width="46" height="30"/>
+                                <state key="normal" title="保存"/>
+                                <connections>
+                                    <action selector="saveBtn:" destination="yaL-Ww-RPc" eventType="touchUpInside" id="9Gs-jS-9UG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" id="2HC-nA-R6h"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="content" destination="4lh-1N-GkO" id="g6J-jP-PdQ"/>
+                        <outlet property="titleName" destination="1Rn-PB-SRh" id="DIY-v4-XKq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5bN-QW-y1p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="257"/>
+        </scene>
+        <!--Navigation View Controller-->
+        <scene sceneID="WhD-bY-BkX">
+            <objects>
+                <navigationController id="yYe-JY-0vD" customClass="NavigationViewController" sceneMemberID="viewController">
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="TNj-iA-AT8">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="aiy-nV-ahh" kind="relationship" relationship="rootViewController" id="eMG-RW-WcZ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1l0-AV-VMh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1066" y="257"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="notepad.png" width="289" height="315"/>
+    </resources>
+</document>

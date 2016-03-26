@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2F2CDCE1CA1438400BBD6B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDCD1CA1438400BBD6B9 /* main.m */; };
+		B2F2CDD11CA1438400BBD6B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDD01CA1438400BBD6B9 /* AppDelegate.m */; };
+		B2F2CDD71CA1438500BBD6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CDD51CA1438500BBD6B9 /* Main.storyboard */; };
+		B2F2CDDA1CA1438500BBD6B9 /* MyNotePad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDD81CA1438500BBD6B9 /* MyNotePad.xcdatamodeld */; };
+		B2F2CDDC1CA1438500BBD6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CDDB1CA1438500BBD6B9 /* Assets.xcassets */; };
+		B2F2CDDF1CA1438500BBD6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CDDD1CA1438500BBD6B9 /* LaunchScreen.storyboard */; };
+		B2F2CDEA1CA1438500BBD6B9 /* MyNotePadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDE91CA1438500BBD6B9 /* MyNotePadTests.m */; };
+		B2F2CDF51CA1438500BBD6B9 /* MyNotePadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CDF41CA1438500BBD6B9 /* MyNotePadUITests.m */; };
+		B2F2CE041CA145A600BBD6B9 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE031CA145A600BBD6B9 /* NavigationViewController.m */; };
+		B2F2CE071CA145E000BBD6B9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE061CA145E000BBD6B9 /* MainViewController.m */; };
+		B2F2CE0D1CA14BC600BBD6B9 /* showViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE0C1CA14BC600BBD6B9 /* showViewController.m */; };
+		B2F2CE101CA15E0700BBD6B9 /* addNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE0F1CA15E0700BBD6B9 /* addNoteController.m */; };
+		B2F2CE131CA1613D00BBD6B9 /* deleteNoteController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE121CA1613D00BBD6B9 /* deleteNoteController.m */; };
+		B2F2CE151CA161EF00BBD6B9 /* notepad.png in Resources */ = {isa = PBXBuildFile; fileRef = B2F2CE141CA161EF00BBD6B9 /* notepad.png */; };
+		B2F2CE1E1CA16CBD00BBD6B9 /* CoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE1D1CA16CBD00BBD6B9 /* CoreDataManager.m */; };
+		B2F2CE231CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE201CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m */; };
+		B2F2CE241CA16F0A00BBD6B9 /* Notes.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F2CE221CA16F0A00BBD6B9 /* Notes.m */; };
+		B2F2CE261CA1945600BBD6B9 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2F2CE251CA1945600BBD6B9 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B2F2CDE61CA1438500BBD6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F2CDC11CA1438400BBD6B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F2CDC81CA1438400BBD6B9;
+			remoteInfo = MyNotePad;
+		};
+		B2F2CDF11CA1438500BBD6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B2F2CDC11CA1438400BBD6B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B2F2CDC81CA1438400BBD6B9;
+			remoteInfo = MyNotePad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B2F2CDC91CA1438400BBD6B9 /* MyNotePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyNotePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F2CDCD1CA1438400BBD6B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2F2CDCF1CA1438400BBD6B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B2F2CDD01CA1438400BBD6B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B2F2CDD61CA1438500BBD6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2F2CDD91CA1438500BBD6B9 /* MyNotePad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyNotePad.xcdatamodel; sourceTree = "<group>"; };
+		B2F2CDDB1CA1438500BBD6B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2F2CDDE1CA1438500BBD6B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2F2CDE01CA1438500BBD6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F2CDE51CA1438500BBD6B9 /* MyNotePadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotePadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F2CDE91CA1438500BBD6B9 /* MyNotePadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotePadTests.m; sourceTree = "<group>"; };
+		B2F2CDEB1CA1438500BBD6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F2CDF01CA1438500BBD6B9 /* MyNotePadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyNotePadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2F2CDF41CA1438500BBD6B9 /* MyNotePadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyNotePadUITests.m; sourceTree = "<group>"; };
+		B2F2CDF61CA1438500BBD6B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2F2CE021CA145A600BBD6B9 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		B2F2CE031CA145A600BBD6B9 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		B2F2CE051CA145E000BBD6B9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		B2F2CE061CA145E000BBD6B9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		B2F2CE0B1CA14BC600BBD6B9 /* showViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = showViewController.h; sourceTree = "<group>"; };
+		B2F2CE0C1CA14BC600BBD6B9 /* showViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = showViewController.m; sourceTree = "<group>"; };
+		B2F2CE0E1CA15E0700BBD6B9 /* addNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addNoteController.h; sourceTree = "<group>"; };
+		B2F2CE0F1CA15E0700BBD6B9 /* addNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addNoteController.m; sourceTree = "<group>"; };
+		B2F2CE111CA1613D00BBD6B9 /* deleteNoteController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = deleteNoteController.h; sourceTree = "<group>"; };
+		B2F2CE121CA1613D00BBD6B9 /* deleteNoteController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = deleteNoteController.m; sourceTree = "<group>"; };
+		B2F2CE141CA161EF00BBD6B9 /* notepad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notepad.png; sourceTree = "<group>"; };
+		B2F2CE1C1CA16CBD00BBD6B9 /* CoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataManager.h; sourceTree = "<group>"; };
+		B2F2CE1D1CA16CBD00BBD6B9 /* CoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataManager.m; sourceTree = "<group>"; };
+		B2F2CE1F1CA16F0A00BBD6B9 /* Notes+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Notes+CoreDataProperties.h"; sourceTree = "<group>"; };
+		B2F2CE201CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Notes+CoreDataProperties.m"; sourceTree = "<group>"; };
+		B2F2CE211CA16F0A00BBD6B9 /* Notes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notes.h; sourceTree = "<group>"; };
+		B2F2CE221CA16F0A00BBD6B9 /* Notes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Notes.m; sourceTree = "<group>"; };
+		B2F2CE251CA1945600BBD6B9 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2F2CDC61CA1438400BBD6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2CE261CA1945600BBD6B9 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2CDE21CA1438500BBD6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2CDED1CA1438500BBD6B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2F2CDC01CA1438400BBD6B9 = {
+			isa = PBXGroup;
+			children = (
+				B2F2CE251CA1945600BBD6B9 /* CoreData.framework */,
+				B2F2CDCB1CA1438400BBD6B9 /* MyNotePad */,
+				B2F2CDE81CA1438500BBD6B9 /* MyNotePadTests */,
+				B2F2CDF31CA1438500BBD6B9 /* MyNotePadUITests */,
+				B2F2CDCA1CA1438400BBD6B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2F2CDCA1CA1438400BBD6B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2CDC91CA1438400BBD6B9 /* MyNotePad.app */,
+				B2F2CDE51CA1438500BBD6B9 /* MyNotePadTests.xctest */,
+				B2F2CDF01CA1438500BBD6B9 /* MyNotePadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2F2CDCB1CA1438400BBD6B9 /* MyNotePad */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2CDCF1CA1438400BBD6B9 /* AppDelegate.h */,
+				B2F2CDD01CA1438400BBD6B9 /* AppDelegate.m */,
+				B2F2CE021CA145A600BBD6B9 /* NavigationViewController.h */,
+				B2F2CE031CA145A600BBD6B9 /* NavigationViewController.m */,
+				B2F2CE051CA145E000BBD6B9 /* MainViewController.h */,
+				B2F2CE061CA145E000BBD6B9 /* MainViewController.m */,
+				B2F2CDD51CA1438500BBD6B9 /* Main.storyboard */,
+				B2F2CE0E1CA15E0700BBD6B9 /* addNoteController.h */,
+				B2F2CE0F1CA15E0700BBD6B9 /* addNoteController.m */,
+				B2F2CE0B1CA14BC600BBD6B9 /* showViewController.h */,
+				B2F2CE0C1CA14BC600BBD6B9 /* showViewController.m */,
+				B2F2CE111CA1613D00BBD6B9 /* deleteNoteController.h */,
+				B2F2CE121CA1613D00BBD6B9 /* deleteNoteController.m */,
+				B2F2CE1C1CA16CBD00BBD6B9 /* CoreDataManager.h */,
+				B2F2CE1D1CA16CBD00BBD6B9 /* CoreDataManager.m */,
+				B2F2CE1F1CA16F0A00BBD6B9 /* Notes+CoreDataProperties.h */,
+				B2F2CE201CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m */,
+				B2F2CE211CA16F0A00BBD6B9 /* Notes.h */,
+				B2F2CE221CA16F0A00BBD6B9 /* Notes.m */,
+				B2F2CE141CA161EF00BBD6B9 /* notepad.png */,
+				B2F2CDDB1CA1438500BBD6B9 /* Assets.xcassets */,
+				B2F2CDDD1CA1438500BBD6B9 /* LaunchScreen.storyboard */,
+				B2F2CDE01CA1438500BBD6B9 /* Info.plist */,
+				B2F2CDD81CA1438500BBD6B9 /* MyNotePad.xcdatamodeld */,
+				B2F2CDCC1CA1438400BBD6B9 /* Supporting Files */,
+			);
+			path = MyNotePad;
+			sourceTree = "<group>";
+		};
+		B2F2CDCC1CA1438400BBD6B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2CDCD1CA1438400BBD6B9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B2F2CDE81CA1438500BBD6B9 /* MyNotePadTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2CDE91CA1438500BBD6B9 /* MyNotePadTests.m */,
+				B2F2CDEB1CA1438500BBD6B9 /* Info.plist */,
+			);
+			path = MyNotePadTests;
+			sourceTree = "<group>";
+		};
+		B2F2CDF31CA1438500BBD6B9 /* MyNotePadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B2F2CDF41CA1438500BBD6B9 /* MyNotePadUITests.m */,
+				B2F2CDF61CA1438500BBD6B9 /* Info.plist */,
+			);
+			path = MyNotePadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2F2CDC81CA1438400BBD6B9 /* MyNotePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F2CDF91CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePad" */;
+			buildPhases = (
+				B2F2CDC51CA1438400BBD6B9 /* Sources */,
+				B2F2CDC61CA1438400BBD6B9 /* Frameworks */,
+				B2F2CDC71CA1438400BBD6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyNotePad;
+			productName = MyNotePad;
+			productReference = B2F2CDC91CA1438400BBD6B9 /* MyNotePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B2F2CDE41CA1438500BBD6B9 /* MyNotePadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F2CDFC1CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePadTests" */;
+			buildPhases = (
+				B2F2CDE11CA1438500BBD6B9 /* Sources */,
+				B2F2CDE21CA1438500BBD6B9 /* Frameworks */,
+				B2F2CDE31CA1438500BBD6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F2CDE71CA1438500BBD6B9 /* PBXTargetDependency */,
+			);
+			name = MyNotePadTests;
+			productName = MyNotePadTests;
+			productReference = B2F2CDE51CA1438500BBD6B9 /* MyNotePadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B2F2CDEF1CA1438500BBD6B9 /* MyNotePadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2F2CDFF1CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePadUITests" */;
+			buildPhases = (
+				B2F2CDEC1CA1438500BBD6B9 /* Sources */,
+				B2F2CDED1CA1438500BBD6B9 /* Frameworks */,
+				B2F2CDEE1CA1438500BBD6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B2F2CDF21CA1438500BBD6B9 /* PBXTargetDependency */,
+			);
+			name = MyNotePadUITests;
+			productName = MyNotePadUITests;
+			productReference = B2F2CDF01CA1438500BBD6B9 /* MyNotePadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2F2CDC11CA1438400BBD6B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "yang johnny";
+				TargetAttributes = {
+					B2F2CDC81CA1438400BBD6B9 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					B2F2CDE41CA1438500BBD6B9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B2F2CDC81CA1438400BBD6B9;
+					};
+					B2F2CDEF1CA1438500BBD6B9 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = B2F2CDC81CA1438400BBD6B9;
+					};
+				};
+			};
+			buildConfigurationList = B2F2CDC41CA1438400BBD6B9 /* Build configuration list for PBXProject "MyNotePad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2F2CDC01CA1438400BBD6B9;
+			productRefGroup = B2F2CDCA1CA1438400BBD6B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2F2CDC81CA1438400BBD6B9 /* MyNotePad */,
+				B2F2CDE41CA1438500BBD6B9 /* MyNotePadTests */,
+				B2F2CDEF1CA1438500BBD6B9 /* MyNotePadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2F2CDC71CA1438400BBD6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2CDDF1CA1438500BBD6B9 /* LaunchScreen.storyboard in Resources */,
+				B2F2CE151CA161EF00BBD6B9 /* notepad.png in Resources */,
+				B2F2CDDC1CA1438500BBD6B9 /* Assets.xcassets in Resources */,
+				B2F2CDD71CA1438500BBD6B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2CDE31CA1438500BBD6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2CDEE1CA1438500BBD6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2F2CDC51CA1438400BBD6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2CE041CA145A600BBD6B9 /* NavigationViewController.m in Sources */,
+				B2F2CE101CA15E0700BBD6B9 /* addNoteController.m in Sources */,
+				B2F2CE131CA1613D00BBD6B9 /* deleteNoteController.m in Sources */,
+				B2F2CE241CA16F0A00BBD6B9 /* Notes.m in Sources */,
+				B2F2CDD11CA1438400BBD6B9 /* AppDelegate.m in Sources */,
+				B2F2CE1E1CA16CBD00BBD6B9 /* CoreDataManager.m in Sources */,
+				B2F2CDCE1CA1438400BBD6B9 /* main.m in Sources */,
+				B2F2CE071CA145E000BBD6B9 /* MainViewController.m in Sources */,
+				B2F2CE0D1CA14BC600BBD6B9 /* showViewController.m in Sources */,
+				B2F2CE231CA16F0A00BBD6B9 /* Notes+CoreDataProperties.m in Sources */,
+				B2F2CDDA1CA1438500BBD6B9 /* MyNotePad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2CDE11CA1438500BBD6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2CDEA1CA1438500BBD6B9 /* MyNotePadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2F2CDEC1CA1438500BBD6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F2CDF51CA1438500BBD6B9 /* MyNotePadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B2F2CDE71CA1438500BBD6B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F2CDC81CA1438400BBD6B9 /* MyNotePad */;
+			targetProxy = B2F2CDE61CA1438500BBD6B9 /* PBXContainerItemProxy */;
+		};
+		B2F2CDF21CA1438500BBD6B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B2F2CDC81CA1438400BBD6B9 /* MyNotePad */;
+			targetProxy = B2F2CDF11CA1438500BBD6B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B2F2CDD51CA1438500BBD6B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F2CDD61CA1438500BBD6B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2F2CDDD1CA1438500BBD6B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2F2CDDE1CA1438500BBD6B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2F2CDF71CA1438500BBD6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B2F2CDF81CA1438500BBD6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2F2CDFA1CA1438500BBD6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.yang.MyNotePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B2F2CDFB1CA1438500BBD6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyNotePad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.yang.MyNotePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B2F2CDFD1CA1438500BBD6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyNotePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.yang.MyNotePadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNotePad.app/MyNotePad";
+			};
+			name = Debug;
+		};
+		B2F2CDFE1CA1438500BBD6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MyNotePadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.yang.MyNotePadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyNotePad.app/MyNotePad";
+			};
+			name = Release;
+		};
+		B2F2CE001CA1438500BBD6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyNotePadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.yang.MyNotePadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyNotePad;
+			};
+			name = Debug;
+		};
+		B2F2CE011CA1438500BBD6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MyNotePadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnny.yang.MyNotePadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MyNotePad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2F2CDC41CA1438400BBD6B9 /* Build configuration list for PBXProject "MyNotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2CDF71CA1438500BBD6B9 /* Debug */,
+				B2F2CDF81CA1438500BBD6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F2CDF91CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2CDFA1CA1438500BBD6B9 /* Debug */,
+				B2F2CDFB1CA1438500BBD6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F2CDFC1CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2CDFD1CA1438500BBD6B9 /* Debug */,
+				B2F2CDFE1CA1438500BBD6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2F2CDFF1CA1438500BBD6B9 /* Build configuration list for PBXNativeTarget "MyNotePadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F2CE001CA1438500BBD6B9 /* Debug */,
+				B2F2CE011CA1438500BBD6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B2F2CDD81CA1438500BBD6B9 /* MyNotePad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B2F2CDD91CA1438500BBD6B9 /* MyNotePad.xcdatamodel */,
+			);
+			currentVersion = B2F2CDD91CA1438500BBD6B9 /* MyNotePad.xcdatamodel */;
+			path = MyNotePad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B2F2CDC11CA1438400BBD6B9 /* Project object */;
+}
